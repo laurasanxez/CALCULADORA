@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Calculadora Web">
+		<title>Calculadora Web</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./css/estilo.css">
+		<script src="js/script.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<h1>Mi Calculadora Web</h1>
+		</header>
+		<main>
+			<div id="calculadora">
+				<input type="text" id="display" readonly>
+				<div class="botones">
+					<button onclick="agregarNumero('7')">7</button>
+					<button onclick="agregarNumero('8')">8</button>
+					<button onclick="agregarNumero('9')">9</button>
+					<button onclick="resetearCalculadora()">C</button>
+					<button onclick="agregarNumero('4')">4</button>
+					<button onclick="agregarNumero('5')">5</button>
+					<button onclick="agregarNumero('6')">6</button>
+					<button onclick="operadorPulsado('/')">/</button>
+					<button onclick="agregarNumero('1')">1</button>
+					<button onclick="agregarNumero('2')">2</button>
+					<button onclick="agregarNumero('3')">3</button>
+					<button onclick="operadorPulsado('*')">*</button>
+					<button onclick="agregarNumero('0')">0</button>
+					<button onclick="calcular()">=</button>
+					<button onclick="operadorPulsado('-')">-</button>
+					<button onclick="operadorPulsado('+')">+</button>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<p>2024 Calculadora Web 2º Bachillerato</p>
+			<p>IES Martín García Ramos</p>
+		</footer>
+	</body>
+</html>
+
+
+
+
+
+
+
+
